@@ -1,0 +1,75 @@
+.my-app {
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+}
+.is-favourite {
+  background-color: yellow;
+}
+.props {
+  display: inline-block;
+  height: 20px;
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+.props:not(:last-child) {
+  width: 25%;
+  margin: 3px 0;
+}
+.props:last-child {
+  width: 45%;
+}
+.is-favourite {
+  color: red;
+}
+.service-btn {
+  width: 49%;
+  margin-bottom: 30px;
+}
+.s1 {
+  margin-right: 2%;
+}
+.new-item {
+  display: block;
+  height: 30px;
+  padding: 1%;
+}
+.new-item-form {
+  width: 50%;
+  margin: 20px auto;
+}
+.new-item-field {
+  width: 100%;
+  margin: 3px 0;
+  text-align: center;
+}
+.new-item-btn {
+  width: 80%;
+  margin: 10px auto;
+}
+.btn {
+  height: 25px;
+}
+.btn:hover {
+  transform: scale(1.05);
+  /* border: 2px solid blue; */
+}
+.edit-btn {
+  width: 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.list {
+  border-top: 1px solid black;
+}
+#is-editing {
+  padding: 1% 0;
+  background-color: rgb(163, 216, 236);
+}
